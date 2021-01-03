@@ -19,7 +19,8 @@ type Props = {
 };
 export default function Index({ posts, tags, pagination }: Props) {
   const url = "/posts";
-  const title = "All posts";
+  const title = "WL All posts";
+
   return (
     <Layout>
       <BasicMeta url={url} title={title} />
